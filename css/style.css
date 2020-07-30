@@ -1,0 +1,2151 @@
+@font-face {
+	font-family: 'social';
+	src:url('../fonts/social.eot?-jj8bez');
+	src:url('../fonts/social.eot?#iefix-jj8bez') format('embedded-opentype'),
+		url('../fonts/social.woff?-jj8bez') format('woff'),
+		url('../fonts/social.ttf?-jj8bez') format('truetype'),
+		url('../fonts/social.svg?-jj8bez#social') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'social';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon-facebook:before {content: "\e601";}
+.icon-twitter:before {content: "\e602";}
+.icon-googleplus:before {content: "\e603";}
+.icon-youtube:before {content: "\e604";}
+.icon-linkedin:before {content: "\e600";}
+
+html, body
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body
+{
+	background: #fff;
+	color: #555;
+	font-family: 'Raleway', 'Helvetica Neue','sans-serif';
+	font-weight: lighter;
+	font-size: 16px;
+}
+header
+{
+
+}
+header .top
+{
+	background: #fff;
+	width: 1024px;
+	height: 120px;
+	margin: 0 auto;
+}
+header .top .logo
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	float: left;
+	width: 48%;
+	height: 100%;
+}
+header .top .logo img
+{
+	width: auto;
+	height: 100px;
+	margin: 10px 0;
+}
+header .top .ad
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	float: right;
+	width: 50%;
+	height: 100%;
+}
+header .top .ad img
+{
+	width: auto;
+	height: 80px;
+	margin: 20px 0;
+}
+header .main
+{
+	background: #171a4a;
+	min-width: 1024px;
+}
+header .main .navigation
+{
+	width: 1024px;
+	height: 50px;
+	margin: 0 auto;
+}
+header .main .navigation nav
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 90%;
+	height: 100%;
+}
+header .main .navigation nav ul
+{
+	padding: 0;
+	margin: 0;
+}
+header .main .navigation nav ul a
+{
+	color: #fff;
+}
+header .main .navigation nav ul a li
+{
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	margin: 17px 20px;
+	position: relative;
+	font-size: 14px;
+}
+header .main .navigation nav ul a li:after, header .main .navigation nav ul a li:before
+{
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	position: absolute;
+	transition: 0.2s;
+}
+header .main .navigation nav ul a:hover li:after, header .main .navigation nav ul a:hover li:before
+{
+
+	margin-left: 16px;
+}
+header .main .navigation nav ul a li:after 
+{
+	border-left-color: #171a4a;
+	border-width: 6px;
+	margin-top: -6px;
+	margin-left: 8px;
+}
+header .main .navigation nav ul a li:before 
+{
+	border-left-color: #fff;
+	border-width: 8px;
+	margin-top: -8px;
+	margin-left: 8px;
+}
+header .main .navigation .language
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 8%;
+	height: 100%;
+}
+header .main .navigation .language a
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 28px;
+	height: 28px;
+	margin: 11px 5px;
+}
+header .main .navigation .language a.language-1
+{
+	background: url('../images/language-1-bn.png');
+	background-size: 100%;
+}
+header .main .navigation .language a.language-2
+{
+	background: url('../images/language-2-bn.png');
+	background-size: 100%;
+}
+header .main .navigation .language a.language-1:hover
+{
+	background: url('../images/language-1.png');
+	background-size: 100%;
+}
+header .main .navigation .language a.language-2:hover
+{
+	background: url('../images/language-2.png');
+	background-size: 100%;
+}
+header .main .navigation .language a.language-1.active
+{
+	background: url('../images/language-1.png');
+	background-size: 100%;
+}
+header .main .navigation .language a.language-2.active
+{
+	background: url('../images/language-2.png');
+	background-size: 100%;
+}
+header .main .social
+{
+	width: 36px;
+	height: auto;
+	padding: 0px 20px;
+	position: fixed;
+	z-index: 100;
+	top: 225px;
+}
+header .main .social a
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 34px;
+	height: 34px;
+	border-radius: 34px;
+	background: #fff;
+	text-align: center;
+	margin: 10px auto;
+	transition: 0.2s;
+}
+header .main .social a span
+{
+	display: inline-block;
+	vertical-align: top;
+	color: #c6482f;
+	font-size: 32px;
+	text-decoration: none;
+	margin: 1px 0px;
+	transition: 0.2s;
+}
+header .main .social a:hover
+{
+	width: 44px;
+	height: 44px;
+	border-radius: 44px;
+}
+header .main .social a:hover span.icon-facebook
+{
+	color: #3b5998;
+	font-size: 42px;
+}
+header .main .social a:hover span.icon-twitter
+{
+	color: #55acee;
+	font-size: 42px;
+}
+header .main .social a:hover span.icon-googleplus
+{
+	color: #dd4b39;
+	font-size: 42px;
+}
+header .main .social a:hover span.icon-youtube
+{
+	color: #cc181e;
+	font-size: 42px;
+}
+header .main .social a:hover span.icon-linkedin
+{
+	color: #0177b5;
+	font-size: 42px;
+}
+header .main .slider
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+header .main .slider .container
+{
+	width: 303%;
+}
+header .main .slider .container img
+{
+	width: 33%;
+	height: auto;
+	position: relative;
+}
+header .main .search
+{
+	width: 1024px;
+	height: 80px;
+	margin: 0 auto;
+}
+header .main .search form
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 75%;
+	height: 100%;
+}
+header .main .search form input
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 160px;
+	height: 25px;
+	border-radius: 25px;
+	border-color: #171a4a;
+	background: #1f256f;
+	color: #fff;
+	font-size: 14px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 21px 5px;
+}
+header .main .search form input.search
+{
+	background: #f88253;
+	width: 100px;
+	height: 40px;
+	border: none;
+	border-radius: 40px;
+	font-size: 12px;
+	margin: 16px 15px;
+	text-transform: uppercase;
+
+	background: url('../images/search-button.png');
+	background-size: auto 100%;
+}
+header .main .search .login
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	width: 20%;
+	height: 28px;
+	padding: 26px 0px;
+}
+header .main .search .login a:first-child
+{
+	border-left: solid 1px #fff;
+}
+header .main .search .login a:last-child
+{
+	margin-left: -5px;
+}
+header .main .search .login a
+{
+	color: #fff;
+	font-size: 14px;
+	text-decoration: none;
+	border-right: solid 1px #fff;
+	padding: 12px 15px;
+	transition: 0.2s;
+}
+header .main .search .login a:hover
+{
+	background: #1f256f;
+	border-color: #171a4a;
+	font-weight: normal;
+}
+.content
+{
+	width: 1024px;
+	height: auto;
+	margin: 0 auto;
+}
+.content .main
+{
+	text-align: center;
+}
+.content .main .main-column
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+	height: auto;
+}
+.content .main .main-column .information
+{
+
+}
+.content .main .main-column .information .biography
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 35%;
+	height: auto;
+	text-align: left;
+	font-size: 14px;
+}
+.content .main .main-column .information .biography h2
+{
+	width: 320px;
+	font-weight: lighter;
+}
+.content .main .main-column .information .biography p
+{
+	width: 100%;
+	margin-bottom: 20px;
+	min-height: 224px;
+}
+.content .main .main-column .information .biography a
+{
+	display: inline-block;
+	background: #f88253;
+	color: #fff;
+	font-size: 12px;
+	padding: 5px;
+	text-decoration: none;
+	margin-right: 2px;
+	margin-top: 4px;
+	transition: 0.2s;
+}
+.content .main .main-column .information .biography a:hover
+{
+	background: #ff5f00;
+}
+.content .main .main-column .information .video
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 64%;
+	height: auto;
+}
+.content .main .main-column .information .video .video-play
+{
+	display: inline-block;
+	position: absolute;
+	background: url('../images/play.png') center center no-repeat;
+	z-index: 100;
+	width: 440px;
+	height: 293px;
+	margin: 0 auto;
+	margin-top: 60px;
+	cursor: pointer;
+}
+.content .main .main-column .information .video .video-play:hover
+{
+	background: url('../images/play-hover.png') center center no-repeat;
+}
+.content .main .main-column .information .video video
+{
+	margin-top: 60px;
+}
+.content .main .main-column .stream
+{
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.content .main .main-column .stream .training, .content .main .main-column .stream .news, .content .main .main-column .stream .events
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 32%;
+}
+.content .main .main-column .stream .training h2, .content .main .main-column .stream .news h2, .content .main .main-column .stream .events h2
+{
+	font-weight: lighter;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.content .main .main-column .stream .training .post, .content .main .main-column .stream .news .post, .content .main .main-column .stream .events .post
+{
+	width: 80%;
+	border-radius: 2px;
+	border-top: solid 4px #0c87dd;
+	box-shadow: 0px 5px 5px #aaa;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 12px;
+}
+.content .main .main-column .stream .training .post h4, .content .main .main-column .stream .news .post h4, .content .main .main-column .stream .events .post h4
+{
+	font-weight: lighter;
+	font-size: 19px;
+	color: #0c87dd;
+	margin: 0;
+	margin-bottom: 12px;
+}
+.content .main .main-column .stream .training .post p, .content .main .main-column .stream .news .post p, .content .main .main-column .stream .events .post p
+{
+	width: 95%;
+	font-size: 14px;
+	margin: 0 auto;
+}
+.content .main .main-column .stream .training .post a, .content .main .main-column .stream .news .post a, .content .main .main-column .stream .events .post a
+{
+	display: inline-block;
+	font-size: 12px;
+	color: #0c87dd;
+	text-decoration: none;
+	margin-top: 8px;
+}
+.content .main .main-column .stream .training .post a:hover, .content .main .main-column .stream .news .post a:hover, .content .main .main-column .stream .events .post a:hover
+{
+	text-decoration: underline;
+}
+.content .main .main-column .stream .news .post p
+{
+	text-align: justify;
+}
+.content .main .main-column .stream .news .post a
+{
+	text-align: right;
+}
+.content .main .main-column .stream .events .post .date
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+	height: auto;
+	font-size: 14px;
+}
+.content .main .main-column .stream .events .post .date .calendar
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background: #0c87dd;
+	color: #fff;
+}
+.content .main .main-column .stream .events .post .date .calendar span:first-child
+{
+	font-size: 28px;
+}
+.content .main .main-column .stream .events .post .information
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	text-align: left;
+	margin-left: 10px;
+}
+.content .main .main-column .stream .events .post .information p
+{
+	font-size: 12px;
+}
+.content .main .main-column .stream .events .post .information a
+{
+	font-size: 10px;
+	margin-top: 10px;
+}
+.content .main .side-bar
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: auto;
+}
+.content .main .side-bar img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.content .featured-companies
+{
+	text-align: center;
+	padding-bottom: 60px;
+}
+.content .featured-companies .title
+{
+	background: url('../images/separator.png');
+	width: 100%;
+	height: 12px;
+	margin-bottom: 60px;
+}
+.content .featured-companies .title h2
+{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: lighter;
+	background: #fff;
+	margin-top: -50px;
+	padding: 0px 10px;
+}
+.content .featured-companies .company
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 24%;
+	height: auto;
+}
+.content .featured-companies .company img.logo
+{
+	width: 160px;
+	height: 160px;
+}
+.content .featured-companies .company h4
+{
+	margin: 0;
+}
+.content .featured-companies .company p
+{
+	font-size: 12px;
+	width: 75%;
+	margin: 5px auto;
+}
+.content .featured-companies .company .raiting
+{
+	width: 100%;
+	height: 18px;
+	padding: 3px 0px;
+}
+.content .featured-companies .company .raiting img
+{
+	width: 20px;
+	height: 18px;
+}
+.content .featured-companies .company a
+{
+	display: inline-block;
+	background: #0c87dd;
+	color: #fff;
+	padding: 8px 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 25px;
+	font-size: 12px;
+	margin-top: 5px;
+	box-shadow: 0px 2px 5px #aaa;
+	transition: 0.2s;
+}
+.content .featured-companies .company a:hover
+{
+	background: #0b76cc;
+	box-shadow: none;
+}
+footer
+{
+	background: #eee;
+	width: 100%;
+	height: 50px;
+	font-size: 10px;
+	min-width: 1024px;
+}
+footer p
+{
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	width: 200px;
+	margin: 14px;
+}
+footer .credit-cards
+{
+	display: inline-block;
+	vertical-align: top;
+}
+footer .credit-cards img
+{
+	width: auto;
+	height: 28px;
+	margin: 11px 0px;
+}
+footer .copyright
+{
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin-right: 30px;
+}
+footer .copyright p
+{
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+	margin: 0;
+}
+footer .copyright p:first-child
+{
+	margin-top: 8px !important;
+}
+footer .copyright a
+{
+	color: #f88253;
+	text-decoration: none;
+}
+footer .copyright a:hover
+{
+	text-decoration: underline;
+}
+
+/************ News ************/
+
+.content section.news
+{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.content section.news .title
+{
+	background: url('../images/separator.png');
+	width: 100%;
+	height: 12px;
+	margin-bottom: 60px;
+}
+.content section.news .title h2
+{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: lighter;
+	background: #fff;
+	margin-top: -50px;
+	padding: 0px 10px;
+}
+.content section.news .main
+{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+	height: auto;
+}
+.content section.news .main .post
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	border-radius: 2px;
+	border-top: solid 4px #0c87dd;
+	box-shadow: 0px 5px 5px #aaa;
+	margin: 0 20px 40px 0;
+	padding: 12px;
+}
+.content section.news .main .post h4
+{
+	font-weight: lighter;
+	font-size: 19px;
+	color: #0c87dd;
+	margin: 0;
+	margin-bottom: 12px;
+}
+.content section.news .main .post p
+{
+	width: 95%;
+	font-size: 14px;
+	margin: 0 auto;
+	text-align: justify;
+}
+.content section.news .main .post a
+{
+	display: inline-block;
+	font-size: 12px;
+	color: #0c87dd;
+	text-decoration: none;
+	margin-top: 8px;
+	text-align: right;
+}
+.content section.news .main .post a:hover
+{
+	text-decoration: underline;
+}
+.content section.news .main .post-details
+{
+	width: 95%;
+	height: 50px;
+	margin-bottom: 10px;
+}
+.content section.news .main .post-details div
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+	height: auto;
+}
+.content section.news .main .post-details .left
+{
+	float: left;
+	text-align: left;
+}
+.content section.news .main .post-details .left p
+{
+	margin: 0;
+}
+.content section.news .main .post-details .right
+{
+	float: right;
+	text-align: right;
+}
+.content section.news .main .post-details .right img
+{
+	width: auto;
+	height: 50px;
+}
+.content section.news .main .post-social
+{
+	background: #f2f2f2;
+	width: 95%;
+	height: 30px;
+	text-align: left;
+}
+.content section.news .main .post-social div
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px 0px !important;
+}
+.content section.news .main .post-content
+{
+	width: 95%;
+	height: auto;
+	text-align: justify;
+}
+.content section.news .side-bar
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: auto;
+}
+.content section.news .side-bar a img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.content section.news .side-bar a:first-child img
+{
+	margin-top: 0px;
+}
+
+/************ Events ************/
+
+.content section.events
+{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.content section.events .title
+{
+	background: url('../images/separator.png');
+	width: 100%;
+	height: 12px;
+	margin-bottom: 60px;
+}
+.content section.events .title h2
+{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: lighter;
+	background: #fff;
+	margin-top: -50px;
+	padding: 0px 10px;
+}
+.content section.events .main
+{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+	height: auto;
+}
+.content section.events .main .post
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	border-radius: 2px;
+	border-top: solid 4px #0c87dd;
+	box-shadow: 0px 5px 5px #aaa;
+	margin: 0 20px 40px 0;
+	padding: 12px;
+}
+.content section.events .main .post h4
+{
+	font-weight: lighter;
+	font-size: 19px;
+	color: #0c87dd;
+	margin: 0;
+	margin-bottom: 12px;
+}
+.content section.events .main .post p
+{
+	width: 95%;
+	font-size: 14px;
+	margin: 0 auto;
+}
+.content section.events .main .post a
+{
+	display: inline-block;
+	font-size: 12px;
+	color: #0c87dd;
+	text-decoration: none;
+	margin-top: 8px;
+}
+.content section.events .main .post a:hover
+{
+	text-decoration: underline;
+}
+.content section.events .main .post .date
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 50px;
+	height: auto;
+	font-size: 14px;
+}
+.content section.events .main .post .date .calendar
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 5px;
+	background: #0c87dd;
+	color: #fff;
+}
+.content section.events .main .post .date .calendar span:first-child
+{
+	font-size: 28px;
+}
+.content section.events .main .post .information
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 135px;
+	text-align: left;
+	margin-left: 10px;
+}
+.content section.events .main .post .information p
+{
+	font-size: 12px;
+}
+.content section.events .main .post .information a
+{
+	font-size: 10px;
+	margin-top: 10px;
+}
+.content section.events .main .post-details
+{
+	width: 95%;
+	height: auto;
+	margin-bottom: 10px;
+	padding: 5px 0px;
+    overflow: hidden;
+}
+.content section.events .main .post-details div
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+	height: auto;
+}
+.content section.events .main .post-details .left
+{
+	float: left;
+	text-align: left;
+}
+.content section.events .main .post-details .left span
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 27px;
+	height: 25px;
+	margin-top: 2.5px;
+}
+.content section.events .main .post-details .left span img
+{
+	width: auto;
+	height: 20px;
+}
+.content section.events .main .post-details .left p
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.content section.events .main .post-details .right
+{
+	float: right;
+	text-align: right;
+}
+.content section.events .main .post-details .right img
+{
+	width: auto;
+	height: 50px;
+}
+.content section.events .main .post-social
+{
+	background: #f2f2f2;
+	width: 95%;
+	height: 30px;
+	text-align: left;
+}
+.content section.events .main .post-social div
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px 0px !important;
+}
+.content section.events .main .post-content
+{
+	width: 95%;
+	height: auto;
+	text-align: justify;
+}
+.content section.events .side-bar
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: auto;
+}
+.content section.events .side-bar a img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.content section.events .side-bar a:first-child img
+{
+	margin-top: 0px;
+}
+
+/************ Training ************/
+
+.content section.training
+{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.content section.training .title
+{
+	background: url('../images/separator.png');
+	width: 100%;
+	height: 12px;
+	margin-bottom: 60px;
+}
+.content section.training .title h2
+{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: lighter;
+	background: #fff;
+	margin-top: -50px;
+	padding: 0px 10px;
+}
+.content section.training .main
+{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+	height: auto;
+}
+.content section.training .main .post
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	border-radius: 2px;
+	border-top: solid 4px #0c87dd;
+	box-shadow: 0px 5px 5px #aaa;
+	margin: 0 20px 40px 0;
+	padding: 12px;
+}
+.content section.training .main .post h4
+{
+	font-weight: lighter;
+	font-size: 19px;
+	color: #0c87dd;
+	margin: 0;
+	margin-bottom: 12px;
+}
+.content section.training .main .post p
+{
+	width: 95%;
+	font-size: 14px;
+	margin: 0 auto;
+}
+.content section.training .main .post a
+{
+	display: inline-block;
+	font-size: 12px;
+	color: #0c87dd;
+	text-decoration: none;
+	margin-top: 8px;
+}
+.content section.training .main .post a:hover
+{
+	text-decoration: underline;
+}
+.content section.training .main .post-details
+{
+	width: 95%;
+	height: auto;
+	margin-bottom: 10px;
+	padding: 5px 0px;
+    overflow: hidden;
+}
+.content section.training .main .post-details div
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+	height: auto;
+}
+.content section.training .main .post-details .left
+{
+	float: left;
+	text-align: left;
+}
+.content section.training .main .post-details .left span
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 27px;
+	height: 25px;
+	margin-top: 2.5px;
+}
+.content section.training .main .post-details .left span img
+{
+	width: auto;
+	height: 20px;
+}
+.content section.training .main .post-details .left p
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.content section.training .main .post-details .right
+{
+	float: right;
+	text-align: right;
+}
+.content section.training .main .post-details .right img
+{
+	width: auto;
+	height: 50px;
+}
+.content section.training .main .post-social
+{
+	background: #f2f2f2;
+	width: 95%;
+	height: 30px;
+	text-align: left;
+}
+.content section.training .main .post-social div
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px 0px !important;
+}
+.content section.training .main .post-content
+{
+	width: 95%;
+	height: auto;
+	text-align: justify;
+}
+.content section.training .side-bar
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: auto;
+}
+.content section.training .side-bar a img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.content section.training .side-bar a:first-child img
+{
+	margin-top: 0px;
+}
+
+/************ Equipment ************/
+
+.content section.equipment
+{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.content section.equipment .title
+{
+	background: url('../images/separator.png');
+	width: 100%;
+	height: 12px;
+	margin-bottom: 60px;
+}
+.content section.equipment .title h2
+{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: lighter;
+	background: #fff;
+	margin-top: -50px;
+	padding: 0px 10px;
+}
+.content section.equipment .main
+{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+	height: auto;
+}
+.content section.equipment .main .post
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	border-radius: 2px;
+	border-top: solid 4px #0c87dd;
+	box-shadow: 0px 5px 5px #aaa;
+	margin: 0 20px 40px 0;
+	padding: 12px;
+}
+.content section.equipment .main .post img
+{
+	width: 90%;
+	height: auto;
+}
+.content section.equipment .main .post p
+{
+	width: 90%;
+	margin: 0 auto;
+	padding: 2px 5px;
+	font-size: 12px;
+	font-weight: lighter;
+	border-bottom: dotted 2px #aaa;
+	text-align: left;
+}
+.content section.equipment .main .post p:nth-child(2)
+{
+	margin-top: 5px;
+}
+.content section.equipment .main .post p:nth-child(5)
+{
+	border-bottom: none;
+	margin-bottom: 5px;
+}
+.content section.equipment .main .post .button
+{
+	display: inline-block;
+	background: #0c87dd;
+	color: #fff;
+	padding: 5px 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 25px;
+	font-size: 10px;
+	margin-top: 5px;
+	box-shadow: 0px 2px 5px #aaa;
+	transition: 0.2s;
+}
+.content section.equipment .main .post .button:hover
+{
+	background: #0b76cc;
+	box-shadow: none;
+}
+.content section.equipment .side-bar
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: auto;
+}
+.content section.equipment .side-bar a img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.content section.equipment .side-bar a:first-child img
+{
+	margin-top: 0px;
+}
+
+/************ Library ************/
+
+.content section.library
+{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.content section.library .title
+{
+	background: url('../images/separator.png');
+	width: 100%;
+	height: 12px;
+	margin-bottom: 60px;
+}
+.content section.library .title h2
+{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: lighter;
+	background: #fff;
+	margin-top: -50px;
+	padding: 0px 10px;
+}
+.content section.library .main
+{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+	height: auto;
+}
+.content section.library .main .post
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	min-height: 174px;
+	border-radius: 2px;
+	border-top: solid 4px #0c87dd;
+	box-shadow: 0px 5px 5px #aaa;
+	margin: 0 20px 40px 0;
+}
+.content section.library .main .post .logo
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 40px;
+	height: 40px;
+	border-bottom: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+}
+.content section.library .main .post .logo img
+{
+	width: auto;
+	height: 30px;
+	margin: 5px auto;
+}
+.content section.library .main .post .name
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 158px;
+	height: 40px;
+	border-bottom: solid 1px #ccc;
+	margin-left: -4px;
+}
+.content section.library .main .post .name h4
+{
+	display: inline-block;
+	vertical-align: top;
+	color: #0c87dd;
+	font-size: 12px;
+	font-weight: lighter;
+	text-align: left;
+	margin: 6px 0px;
+	width: 120px;
+}
+.content section.library .main .post .name span
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 13px 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.content section.library .main .post .list
+{
+	text-align: left;
+	font-size: 12px;
+}
+.content section.library .main .post .list a
+{
+	color: #555;
+	text-decoration: none;
+}
+.content section.library .main .post .list a:hover
+{
+	text-decoration: underline;
+}
+.content section.library .main .post .list a li
+{
+	margin: 5px 0px;
+}
+.content section.library .side-bar
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: auto;
+}
+.content section.library .side-bar a img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.content section.library .side-bar a:first-child img
+{
+	margin-top: 0px;
+}
+
+/************ Companies ************/
+
+.content section.companies
+{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.content section.companies .title
+{
+	background: url('../images/separator.png');
+	width: 100%;
+	height: 12px;
+	margin-bottom: 60px;
+}
+.content section.companies .title h2
+{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: lighter;
+	background: #fff;
+	margin-top: -50px;
+	padding: 0px 10px;
+}
+.content section.companies .main
+{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+	height: auto;
+}
+.content section.companies .main .post
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	min-height: 174px;
+	border-radius: 2px;
+	border-top: solid 4px #0c87dd;
+	box-shadow: 0px 5px 5px #aaa;
+	margin: 0 20px 40px 0;
+}
+.content section.companies .main .post .logo
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 40px;
+	height: 40px;
+	border-bottom: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+}
+.content section.companies .main .post .logo img
+{
+	width: 30px;
+	height: 30px;
+	margin: 5px auto;
+}
+.content section.companies .main .post .name
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 158px;
+	height: 40px;
+	border-bottom: solid 1px #ccc;
+	margin-left: -4px;
+}
+.content section.companies .main .post .name h4
+{
+	display: inline-block;
+	vertical-align: top;
+	color: #0c87dd;
+	font-size: 12px;
+	font-weight: lighter;
+	text-align: left;
+	margin: 6px 0px;
+	width: 120px;
+}
+.content section.companies .main .post .name span
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 13px 0px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.content section.companies .main .post .list
+{
+	text-align: left;
+	font-size: 12px;
+}
+.content section.companies .main .post .list a
+{
+	color: #555;
+	text-decoration: none;
+	
+}
+.content section.companies .main .post .list a:hover
+{
+	text-decoration: underline;
+}
+.content section.companies .main .post .list a li
+{
+	margin: 5px 0px;
+}
+.content section.companies .main .post-all
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 90%;
+	min-height: 174px;
+	border-radius: 2px;
+	border-top: solid 4px #0c87dd;
+	box-shadow: 0px 5px 5px #aaa;
+	margin: 0 20px 40px 0;
+}
+.content section.companies .main .post-all .logo
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 40px;
+	height: 40px;
+	border-bottom: solid 1px #ccc;
+	border-right: solid 1px #ccc;
+}
+.content section.companies .main .post-all .logo img
+{
+	width: 30px;
+	height: 30px;
+	margin: 5px auto;
+}
+.content section.companies .main .post-all .name
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 677px;
+	height: 40px;
+	border-bottom: solid 1px #ccc;
+	margin-left: -4px;
+}
+.content section.companies .main .post-all .name h4
+{
+	display: inline-block;
+	vertical-align: top;
+	color: #0c87dd;
+	font-size: 12px;
+	font-weight: lighter;
+	text-align: left;
+	margin: 6px 0px;
+	line-height: 28px;
+}
+.content section.companies .main .post-all .name span
+{
+	display: inline-block;
+	vertical-align: top;
+	margin: 13px 0px;
+	margin-right: 10px;
+	font-size: 12px;
+	font-weight: bold;
+	float: right;
+}
+.content section.companies .main .post-all .list
+{
+	text-align: left;
+	font-size: 12px;
+	-webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+.content section.companies .main .post-all .list a
+{
+	color: #555;
+	text-decoration: none;
+	
+}
+.content section.companies .main .post-all .list a:hover
+{
+	text-decoration: underline;
+}
+.content section.companies .main .post-all .list a li
+{
+	margin: 5px 0px;
+}
+.content section.companies .side-bar
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: auto;
+}
+.content section.companies .side-bar a img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.content section.companies .side-bar a:first-child img
+{
+	margin-top: 0px;
+}
+
+/************ Contact ************/
+
+.content section.contact
+{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.content section.contact .title
+{
+	background: url('../images/separator.png');
+	width: 100%;
+	height: 12px;
+	margin-bottom: 60px;
+}
+.content section.contact .title h2
+{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: lighter;
+	background: #fff;
+	margin-top: -50px;
+	padding: 0px 10px;
+}
+.content section.contact .main
+{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+	height: auto;
+}
+.content section.contact .main .cards
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 65%;
+	height: auto;
+}
+.content section.contact .main .cards .card
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 45%;
+	min-height: 174px;
+	border-radius: 2px;
+	border-top: solid 4px #0c87dd;
+	box-shadow: 0px 5px 5px #aaa;
+	margin: 0 20px 40px 0;
+}
+.content section.contact .main .cards .card h4
+{
+	font-weight: lighter;
+	color: #0c87dd;
+	text-transform: uppercase;
+	font-size: 13px;
+	background: url('../images/location-icon.png') 15px center no-repeat;
+	background-size: 16px auto;
+	padding: 15px 0px;
+	margin: 0;
+}
+.content section.contact .main .cards .card p
+{
+	margin: 2px auto;
+	text-align: left;
+	width: 90%;
+	font-size: 14px;
+}
+.content section.contact .main .cards .card span
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 90%;
+	font-size: 14px;
+	color: #0c87dd;
+	text-align: left;
+}
+.content section.contact .main .cards .card a
+{
+	display: inline-block;
+	vertical-align: top;
+	color: #0c87dd;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: left;
+	width: 90%;
+}
+.content section.contact .main .cards .card a:hover
+{
+	text-decoration: underline;
+}
+.content section.contact .main form
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	height: auto;
+	border-top: solid 4px #0c87dd;
+}
+.content section.contact .main form h4
+{
+	font-weight: lighter;
+	color: #0c87dd;
+	text-transform: uppercase;
+	font-size: 13px;
+	margin: 15px 0px;
+}
+.content section.contact .main form input
+{
+	width: 100%;
+	margin: 1px 0px;
+	font-size: 14px;
+}
+.content section.contact .main form input[type="radio"]
+{
+	display: inline-block;
+	width: auto;
+	margin: 15px;
+}
+.content section.contact .main form input[type="checkbox"]
+{
+	display: inline-block;
+	width: auto;
+	margin: 15px 5px;
+}
+.content section.contact .main form label
+{
+	font-size: 14px;
+}
+.content section.contact .main form label[for="terms"]
+{
+	font-size: 12px;
+}
+.content section.contact .main form textarea
+{
+	width: 100%;
+	margin: 1px 0px;
+	font-size: 14px;
+	resize: none;
+	border-color: #ccc;
+}
+.content section.contact .main form input#send
+{
+	width: 80px;
+	height: 25px;
+	border-radius: 25px;
+	border: none;
+	color: #fff;
+	text-transform: uppercase;
+	background: #0c87dd;
+	margin-left: 28px;
+}
+.content section.contact .side-bar
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: auto;
+}
+.content section.contact .side-bar a img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.content section.contact .side-bar a:first-child img
+{
+	margin-top: 0px;
+}
+
+/************ Basic ************/
+
+.content section.profile-basic
+{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.content section.profile-basic .title
+{
+	background: url('../images/separator.png');
+	width: 100%;
+	height: 12px;
+	margin-bottom: 60px;
+}
+.content section.profile-basic .title h2
+{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: lighter;
+	background: #fff;
+	margin-top: -50px;
+	padding: 0px 10px;
+}
+.content section.profile-basic .main
+{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+	height: auto;
+}
+.content section.profile-basic .main .tabs
+{
+	width: 98%;
+	height: 40px;
+}
+.content section.profile-basic .main .tabs div
+{
+	width: 100%;
+	height: 100%;
+	border: solid 1px #ccc;
+	border-radius: 15px 15px 0px 0px;
+	color: #0c87dd;
+	line-height: 40px;
+	border-bottom: none;
+}
+.content section.profile-basic .main .containers
+{
+	width: 98%;
+	height: auto;
+	border: solid 1px #ccc;
+	border-top: solid 4px #0c87dd;
+}
+.content section.profile-basic .main .containers aside
+{
+	background: #f2f2f2;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	height: auto;
+}
+.content section.profile-basic .main .containers aside div
+{
+	
+}
+.content section.profile-basic .main .containers aside div .title
+{
+	width: 100%;
+	height: 6px;
+	background: #e8e8e8;
+	padding: 0;
+	margin: 10px 0px;
+}
+.content section.profile-basic .main .containers aside div .title h4
+{
+	display: inline-block;
+	vertical-align: top;
+	background: #f2f2f2;
+
+	font-weight: lighter;
+	margin-top: -6px;
+	padding: 0px 10px;
+}
+.content section.profile-basic .main .containers aside div .essence
+{
+	padding: 10px 5px 5px 5px;
+}
+.content section.profile-basic .main .containers aside div .essence p
+{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 14px;
+	text-align: left;
+}
+.content section.profile-basic .main .containers aside div.map
+{
+	width: 210px;
+	height: 210px;
+	border: solid 3px #fff;
+	margin: 10px auto;
+}
+.content section.profile-basic .main .containers aside div.rating img
+{
+	width: 25px;
+	height: auto;
+}
+.content section.profile-basic .main .containers aside div.share img
+{
+	width: 40px;
+	height: auto;
+}
+.content section.profile-basic .main .containers aside div.keywords li
+{
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+}
+.content section.profile-basic .main .containers article
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 69.4%;
+	height: auto;
+}
+.content section.profile-basic .main .containers article .logo
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 85%;
+	height: 120px;
+	text-align: left;
+}
+.content section.profile-basic .main .containers article .logo img
+{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+}
+.content section.profile-basic .main .containers article .logo h4
+{
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+	font-size: 19px;
+	font-weight: lighter;
+	margin: 40px 0px;
+}
+.content section.profile-basic .main .containers article .type
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 10.2%;
+	height: 100px;
+}
+.content section.profile-basic .main .containers article .type img
+{
+	width: 20px;
+	height: auto;
+	margin: 20px auto;
+}
+.content section.profile-basic .main .containers article p
+{
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: justify;
+	font-size: 14px;
+}
+.content section.profile-basic .side-bar
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: auto;
+}
+.content section.profile-basic .side-bar a img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.content section.profile-basic .side-bar a:first-child img
+{
+	margin-top: 0px;
+}
+
+/************ Advance ************/
+
+.content section.profile-advance
+{
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.content section.profile-advance .title
+{
+	background: url('../images/separator.png');
+	width: 100%;
+	height: 12px;
+	margin-bottom: 60px;
+}
+.content section.profile-advance .title h2
+{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: lighter;
+	background: #fff;
+	margin-top: -50px;
+	padding: 0px 10px;
+}
+.content section.profile-advance .main
+{
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	width: 78%;
+	height: auto;
+}
+.content section.profile-advance .main .tabs
+{
+	width: 98%;
+	height: 40px;
+}
+.content section.profile-advance .main .tabs div
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 24%;
+	height: 100%;
+	border: solid 1px #ccc;
+	border-radius: 15px 15px 0px 0px;
+	line-height: 40px;
+	border-bottom: none;
+	cursor: pointer;
+}
+.content section.profile-advance .main .tabs div.active
+{
+	color: #0c87dd;
+}
+.content section.profile-advance .main .containers
+{
+	width: 98%;
+	height: auto;
+	border: solid 1px #ccc;
+	border-top: solid 4px #0c87dd;
+}
+.content section.profile-advance .main .containers aside
+{
+	background: #f2f2f2;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	height: auto;
+}
+.content section.profile-advance .main .containers aside div
+{
+	
+}
+.content section.profile-advance .main .containers aside div .title
+{
+	width: 100%;
+	height: 6px;
+	background: #e8e8e8;
+	padding: 0;
+	margin: 10px 0px;
+}
+.content section.profile-advance .main .containers aside div .title h4
+{
+	display: inline-block;
+	vertical-align: top;
+	background: #f2f2f2;
+
+	font-weight: lighter;
+	margin-top: -6px;
+	padding: 0px 10px;
+}
+.content section.profile-advance .main .containers aside div .essence
+{
+	padding: 10px 5px 5px 5px;
+}
+.content section.profile-advance .main .containers aside div .essence p
+{
+	width: 90%;
+	margin: 0 auto;
+	font-size: 14px;
+	text-align: left;
+}
+.content section.profile-advance .main .containers aside div.map
+{
+	width: 210px;
+	height: 210px;
+	border: solid 3px #fff;
+	margin: 10px auto;
+}
+.content section.profile-advance .main .containers aside div.rating img
+{
+	width: 25px;
+	height: auto;
+}
+.content section.profile-advance .main .containers aside div.share img
+{
+	width: 40px;
+	height: auto;
+}
+.content section.profile-advance .main .containers aside div.keywords li
+{
+	display: inline-block;
+	vertical-align: top;
+	list-style: none;
+}
+.content section.profile-advance .main .containers article
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 69.4%;
+	height: auto;
+	display: none;
+}
+.content section.profile-advance .main .containers article.active
+{
+	display: inline-block;
+}
+.content section.profile-advance .main .containers article .logo
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 85%;
+	height: 120px;
+	text-align: left;
+}
+.content section.profile-advance .main .containers article .logo img
+{
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+}
+.content section.profile-advance .main .containers article .logo h4
+{
+	display: inline-block;
+	vertical-align: top;
+	width: auto;
+	font-size: 19px;
+	font-weight: lighter;
+	margin: 40px 0px;
+}
+.content section.profile-advance .main .containers article .type
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 10.2%;
+	height: 100px;
+}
+.content section.profile-advance .main .containers article .type img
+{
+	width: 20px;
+	height: auto;
+	margin: 20px auto;
+}
+.content section.profile-advance .main .containers article p
+{
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	text-align: justify;
+	font-size: 14px;
+}
+.content section.profile-advance .main .containers article h4
+{
+	text-align: left;
+	font-weight: normal;
+	width: 90%;
+	margin: 20px auto;
+}
+.content section.profile-advance .side-bar
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: auto;
+}
+.content section.profile-advance .side-bar a img
+{
+	width: 100%;
+	height: auto;
+	margin-top: 60px;
+}
+.content section.profile-advance .side-bar a:first-child img
+{
+	margin-top: 0px;
+}
